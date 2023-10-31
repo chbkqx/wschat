@@ -17,7 +17,7 @@ setKey("sk-3ff......")
 //getConversations().then(o=>{alert(JSON.stringify(o))})
 
 
-    let chat = new Chat(23)
+    let chat = new Chat(-1)
     btn('#send',()=>{
         chat.ask({
         message: $('input').value,
