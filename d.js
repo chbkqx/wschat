@@ -1,9 +1,5 @@
 import {Chat,getToken,getPath} from'./chat.js';
 import {setKey,client} from './client.js';
-import {
-    btn,$
-}
-from "http://localhost:8080/module/wheel/jq.js"
 import {getConversations,
   getConversation,
   deleteConversation,
@@ -14,7 +10,7 @@ import {getConversations,
   buySubscription} from'./api.js'
 try {
 
-setKey("sk-3ff89d0d143e8b4180ce5ae7863bc71d7a66918f69898bb3e0b4ee433786639e")
+setKey("sk-3ff......")
 //getQuota().then(o=>{alert(o)})
 //getConversations().then(o=>{alert(JSON.stringify(o))})
 
