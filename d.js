@@ -9,7 +9,9 @@ import {getConversations,
   getSubscription,
   buySubscription} from'./api.js'
 try {
-
+function btn(e,f){
+document.querySelector(e).addEventListener('click',(event)=>{f(event)})
+}
 setKey("sk-3ff......")
 //getQuota().then(o=>{alert(o)})
 //getConversations().then(o=>{alert(JSON.stringify(o))})
